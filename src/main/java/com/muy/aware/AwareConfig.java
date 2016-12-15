@@ -1,0 +1,12 @@
+package com.muy.aware;
+
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
+
+/**
+ * Created by yanglikai on 2016/12/14.
+ */
+@Configuration
+@ComponentScan("com.muy.aware")
+public class AwareConfig {
+}
